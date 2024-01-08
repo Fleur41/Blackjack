@@ -11,3 +11,10 @@ class Card:
         self.card_face = card_face
         self.value = value
         self.symbol = symbol
+
+def show_cards(cards, hidden):
+    s = ''
+    for card in cards:
+        s = s + '\t ________________'
+    if hidden:
+        s += '\t ________________'
